@@ -18,10 +18,10 @@ For use with all ForkNote Coins: bikercoin bipcoin bitcoal bytecoin crossnote cr
 * getHeight() - Returns current chain height.
 
 
-### [ForkNoteWalletd]()
+### ForkNoteWalletd
 * Coming Soon
 
-### [ForkNoteSimpleWallet]()
+### ForkNoteSimpleWallet
 * Coming Soon
 
 ## Usage:
@@ -37,14 +37,14 @@ enable-cors=*
 ```
 
 * Launch forknoted with the corresponding config file
-Linux/Mac
+
+Linux/Mac:
 ```
 ./forknoted --config-file <path_to_config_file>
 ```
-Windows
+Windows:
 ```
-"C:\Program Files\forknote-windows\forknoted"
---config-file "<path_to_config_file>"
+"C:\Program Files\forknote-windows\forknoted" --config-file "<path_to_config_file>"
 ```
 
 Find your coin's rpc port in the config file. ( i.e. rpc-bind-port=18871)
