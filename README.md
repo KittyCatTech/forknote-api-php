@@ -5,7 +5,7 @@ For use with all ForkNote Coins: bikercoin bipcoin bitcoal bytecoin crossnote cr
 
 ## Functions:
 
-### [ForkNoteDaemon](https://github.com/KittyCatTech/forknote-api-php/blob/master/forknoteDaemonAPI.php)
+### [ForkNoteDaemon (forknoteDaemonAPI.php)](https://github.com/KittyCatTech/forknote-api-php/blob/master/forknoteDaemonAPI.php)
 * getBlockTemplate($reserveSize, $walletAddress) - Returns blocktemplate with an empty “hole” for nonce.
 * getLastBlockHeader() - Returns last block header.
 * getBlockHeaderByHash($hash) - Returns last block header by given hash.
@@ -18,8 +18,8 @@ For use with all ForkNote Coins: bikercoin bipcoin bitcoal bytecoin crossnote cr
 * getHeight() - Returns current chain height.
 
 
-### ForkNoteWalletd
-* Coming Soon
+### [ForkNoteWalletd (forknoteWalletdAPI.php)](https://github.com/KittyCatTech/forknote-api-php/blob/master/forknoteWalletdAPI.php)
+* still in progress
 
 ### ForkNoteSimpleWallet
 * Coming Soon
